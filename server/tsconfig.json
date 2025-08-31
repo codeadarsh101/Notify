@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "rootDir": "./src",  // code in TS
+    "outDir": "./dist",  // compile JS 
+
+    "module": "nodenext",          // ✅ must match moduleResolution
+    "moduleResolution": "nodenext",
+    "target": "es2020",
+
+    "lib": ["esnext"],
+    "types": ["node"],
+
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+
+    "strict": true,
+    "skipLibCheck": true
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
+}
