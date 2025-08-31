@@ -1,0 +1,20 @@
+# dependencies
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# environment variables
+.env
+client/.env
+server/.env
+
+# build outputs (TS/React/Vite)
+build/
+dist/
+client/build/
+client/dist/
+server/build/
+server/dist/
+
+# misc
+.DS_Store
